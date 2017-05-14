@@ -128,8 +128,8 @@ Notes for reviewer:
 
     ```
     <VirtualHost *:80>
-      ServerName 34.201.114.178
-      ServerAdmin admin@34.201.114.178
+      ServerName 54.236.241.142
+      ServerAdmin admin@54.236.241.142
       WSGIScriptAlias / /var/www/catalog/catalog.wsgi
       <Directory /var/www/catalog/catalog/>
           Order allow,deny
