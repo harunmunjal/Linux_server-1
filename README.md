@@ -1,11 +1,11 @@
 # Linux_server
 ## Project 7 under the Full Stack Web Developer Nanodegree at Udacity
 
-See project live at: [link](http://ec2-54-236-241-142.compute-1.amazonaws.com/)
+See project live at: [link](http://ec2-34-201-35-11.compute-1.amazonaws.com/)
 Notes for reviewer:
-* public Ip: `54.236.241.142`
+* public Ip: `34.201.35.11`
 * SSH PORT: `2200`
-* Full project URL:[link](http://ec2-54-236-241-142.compute-1.amazonaws.com//)
+* Full project URL:[link](http://ec2-34-201-35-11.compute-1.amazonaws.com/)
 
 
 
@@ -128,8 +128,8 @@ Notes for reviewer:
 
     ```
     <VirtualHost *:80>
-      ServerName 54.236.241.142
-      ServerAdmin admin@54.236.241.142
+      ServerName 34.201.35.11
+      ServerAdmin admin@34.201.35.11
       WSGIScriptAlias / /var/www/catalog/catalog.wsgi
       <Directory /var/www/catalog/catalog/>
           Order allow,deny
